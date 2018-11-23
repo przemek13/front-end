@@ -11,8 +11,8 @@ html {
 }
 
 body {
-min-height: 100vh;    
-font-size: 1.6rem
+    min-height: 100vh;    
+    font-size: 1.6rem
 }
 
 .background-white {
@@ -172,6 +172,10 @@ a.nav-link:hover {
 a.nav-link:active {
     color: #333;
     text-decoration: none;
+}
+
+#just {
+    text-align: center
 }
 
 @media screen and (min-width: 768px) {
