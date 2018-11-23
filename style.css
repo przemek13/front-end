@@ -157,25 +157,29 @@ footer {
     border: 0.5rem solid transparent;
     object-fit: cover;
 }
+
 a.nav-link:link {
     color: #333;
     text-decoration: none;
 }
+
 a.nav-link:visited {
     color: #333;
     text-decoration: none;
 }
+
 a.nav-link:hover {
     color: #4267b2;
     text-decoration: none;
 }
+
 a.nav-link:active {
     color: #333;
     text-decoration: none;
 }
 
-#just {
-    text-align: center
+.current {
+    background-color: #283a58
 }
 
 @media screen and (min-width: 768px) {
