@@ -106,7 +106,8 @@ h3 {
     border-radius: 50%;
     border: 0.5rem solid transparent;
     box-shadow: 0 0 0.5rem 0.5rem #4267b2;
-    object-fit: cover;
+    object-fit: cover
+    ;
 }
 
 .toggle-background {
@@ -149,6 +150,30 @@ footer {
    color: #fff; 
 }
 
+.mini-photo {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5%;
+    border: 0.5rem solid transparent;
+    object-fit: cover;
+}
+a.nav-link:link {
+    color: #333;
+    text-decoration: none;
+}
+a.nav-link:visited {
+    color: #333;
+    text-decoration: none;
+}
+a.nav-link:hover {
+    color: #4267b2;
+    text-decoration: none;
+}
+a.nav-link:active {
+    color: #333;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
     li > a {
         padding: 2rem 5rem;
@@ -167,15 +192,15 @@ footer {
         min-width: 20rem;
     }
 
-    @media screen and (min-width: 1025px) {
-        .weather {
-            min-height: 15rem;
-            width: 20rem;
-            position: absolute;
-            right: 0;
-        }
-        .paragraph {
-            min-height: 15rem;
-        }
+@media screen and (min-width: 1025px) {
+    .weather {
+        min-height: 15rem;
+        width: 20rem;
+        position: absolute;
+        right: 0;
     }
+    .paragraph {
+        min-height: 15rem;
+    }
+}
 }
